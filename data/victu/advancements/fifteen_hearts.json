@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"title": "True Health",
+		"description": "Obtain 15 hearts."
+	},
+	"parent": "victu:ten_hearts",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}

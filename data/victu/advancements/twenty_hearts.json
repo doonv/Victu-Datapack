@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"title": "Overpowered",
+		"description": "Obtain 20 hearts."
+	},
+	"parent": "victu:fifteen_hearts",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}

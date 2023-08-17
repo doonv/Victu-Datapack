@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bread"
+		},
+		"title": "Half Full, Half Empty",
+		"description": "Obtain 5 hearts."
+	},
+	"parent": "victu:victu",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}

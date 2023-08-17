@@ -1,0 +1,17 @@
+{
+        "criteria": {
+            "requirement": {
+                "trigger": "minecraft:consume_item",
+                "conditions": {
+                    "item": {
+                        "items": [
+                            "minecraft:milk_bucket"
+                        ]
+                    }
+                }
+            }
+        },
+        "rewards": {
+            "function": "victu:on_advancement/milk_bucket"
+        }
+    }

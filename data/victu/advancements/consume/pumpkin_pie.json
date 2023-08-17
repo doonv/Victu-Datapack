@@ -1,0 +1,17 @@
+{
+        "criteria": {
+            "requirement": {
+                "trigger": "minecraft:consume_item",
+                "conditions": {
+                    "item": {
+                        "items": [
+                            "minecraft:pumpkin_pie"
+                        ]
+                    }
+                }
+            }
+        },
+        "rewards": {
+            "function": "victu:on_advancement/pumpkin_pie"
+        }
+    }

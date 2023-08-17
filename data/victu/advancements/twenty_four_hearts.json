@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"title": "Godly",
+		"description": "Obtain 24 hearts, the maximum possible.",
+		"frame": "goal"
+	},
+	"parent": "victu:twenty_hearts",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}

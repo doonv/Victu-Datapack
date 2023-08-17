@@ -1,0 +1,17 @@
+{
+        "criteria": {
+            "requirement": {
+                "trigger": "minecraft:consume_item",
+                "conditions": {
+                    "item": {
+                        "items": [
+                            "minecraft:honey_bottle"
+                        ]
+                    }
+                }
+            }
+        },
+        "rewards": {
+            "function": "victu:on_advancement/honey_bottle"
+        }
+    }

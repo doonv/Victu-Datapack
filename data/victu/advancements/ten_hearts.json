@@ -1,0 +1,16 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_beef"
+		},
+		"title": "Back To Normal!",
+		"description": "Obtain 10 hearts."
+	},
+	"parent": "victu:five_hearts",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}

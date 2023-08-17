@@ -1,0 +1,17 @@
+{
+        "criteria": {
+            "requirement": {
+                "trigger": "minecraft:consume_item",
+                "conditions": {
+                    "item": {
+                        "items": [
+                            "minecraft:beef"
+                        ]
+                    }
+                }
+            }
+        },
+        "rewards": {
+            "function": "victu:on_advancement/beef"
+        }
+    }

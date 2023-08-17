@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:apple"
+		},
+		"title": "Victu",
+		"description": "A balanced diet.",
+		"background": "minecraft:textures/block/farmland_moist.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item"
+		}
+	}
+}

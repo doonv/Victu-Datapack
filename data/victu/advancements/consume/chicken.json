@@ -1,0 +1,17 @@
+{
+        "criteria": {
+            "requirement": {
+                "trigger": "minecraft:consume_item",
+                "conditions": {
+                    "item": {
+                        "items": [
+                            "minecraft:chicken"
+                        ]
+                    }
+                }
+            }
+        },
+        "rewards": {
+            "function": "victu:on_advancement/chicken"
+        }
+    }
