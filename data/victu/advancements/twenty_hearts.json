@@ -3,8 +3,10 @@
 		"icon": {
 			"item": "minecraft:golden_apple"
 		},
-		"title": "Overpowered",
-		"description": "Obtain 20 hearts."
+		"title": "Strong Everything",
+		"description": "Obtain 20 hearts.",
+		"show_toast": true,
+		"announce_to_chat": true
 	},
 	"parent": "victu:fifteen_hearts",
 	"criteria": {

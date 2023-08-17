@@ -1,5 +1,4 @@
 # THIS FUNCTION IS AUTO-GENERATED. Please edit `gen.py` instead.
-
 # Settings
 execute unless data storage victu:settings NutritionTime run data modify storage victu:settings NutritionTime set value 36000
 execute unless data storage victu:settings StartingHealth run data modify storage victu:settings StartingHealth set value 6
@@ -51,3 +50,5 @@ scoreboard objectives add victu__rabbit_stew_nutrition_expiration_time dummy
 scoreboard objectives add victu__suspicious_stew_nutrition_expiration_time dummy
 scoreboard objectives add victu__milk_bucket_nutrition_expiration_time dummy
 scoreboard objectives add victu__honey_bottle_nutrition_expiration_time dummy
+
+tellraw @a[tag=victu__debug] ["",{"text":"[","bold":true,"color":"light_purple"},{"text":"Victu ","bold":true,"color":"yellow","hoverEvent":{"action":"show_text","contents":[{"text":"Remove your ","color":"white"},{"text":"victu__debug","bold":true,"color":"light_purple"},{"text":" tag to disable this message.","color":"white"}]}},{"text":"Debug","color":"light_purple","hoverEvent":{"action":"show_text","contents":[{"text":"Remove your ","color":"white"},{"text":"victu__debug","bold":true,"color":"light_purple"},{"text":" tag to disable this message.","color":"white"}]}},{"text":"] ","bold":true,"color":"light_purple"},{"text":"Loaded Successfully.","color": "yellow"}]

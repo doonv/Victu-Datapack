@@ -1,17 +1,17 @@
 {
-        "criteria": {
-            "requirement": {
-                "trigger": "minecraft:consume_item",
-                "conditions": {
-                    "item": {
-                        "items": [
-                            "minecraft:cooked_cod"
-                        ]
-                    }
-                }
-            }
-        },
-        "rewards": {
-            "function": "victu:on_advancement/cooked_cod"
-        }
-    }
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "victu:on_advancement/cooked_cod"
+	}
+}

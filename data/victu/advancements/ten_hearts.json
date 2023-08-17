@@ -4,7 +4,9 @@
 			"item": "minecraft:cooked_beef"
 		},
 		"title": "Back To Normal!",
-		"description": "Obtain 10 hearts."
+		"description": "Obtain 10 hearts.",
+		"show_toast": true,
+		"announce_to_chat": true
 	},
 	"parent": "victu:five_hearts",
 	"criteria": {

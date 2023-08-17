@@ -1,17 +1,17 @@
 {
-        "criteria": {
-            "requirement": {
-                "trigger": "minecraft:consume_item",
-                "conditions": {
-                    "item": {
-                        "items": [
-                            "minecraft:pufferfish"
-                        ]
-                    }
-                }
-            }
-        },
-        "rewards": {
-            "function": "victu:on_advancement/pufferfish"
-        }
-    }
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "victu:on_advancement/pufferfish"
+	}
+}

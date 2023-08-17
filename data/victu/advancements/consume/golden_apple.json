@@ -1,17 +1,17 @@
 {
-        "criteria": {
-            "requirement": {
-                "trigger": "minecraft:consume_item",
-                "conditions": {
-                    "item": {
-                        "items": [
-                            "minecraft:golden_apple"
-                        ]
-                    }
-                }
-            }
-        },
-        "rewards": {
-            "function": "victu:on_advancement/golden_apple"
-        }
-    }
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_apple"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "victu:on_advancement/golden_apple"
+	}
+}

@@ -4,7 +4,8 @@
 			"item": "minecraft:bread"
 		},
 		"title": "Half Full, Half Empty",
-		"description": "Obtain 5 hearts."
+		"description": "Obtain 5 hearts.",
+		"show_toast": true
 	},
 	"parent": "victu:victu",
 	"criteria": {

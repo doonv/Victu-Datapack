@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:cake"
 		},
-		"title": "True Health",
+		"title": "Health Conscious",
 		"description": "Obtain 15 hearts."
 	},
 	"parent": "victu:ten_hearts",

@@ -1,17 +1,17 @@
 {
-        "criteria": {
-            "requirement": {
-                "trigger": "minecraft:consume_item",
-                "conditions": {
-                    "item": {
-                        "items": [
-                            "minecraft:mutton"
-                        ]
-                    }
-                }
-            }
-        },
-        "rewards": {
-            "function": "victu:on_advancement/mutton"
-        }
-    }
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:mutton"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "victu:on_advancement/mutton"
+	}
+}

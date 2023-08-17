@@ -1,17 +1,17 @@
 {
-        "criteria": {
-            "requirement": {
-                "trigger": "minecraft:consume_item",
-                "conditions": {
-                    "item": {
-                        "items": [
-                            "minecraft:spider_eye"
-                        ]
-                    }
-                }
-            }
-        },
-        "rewards": {
-            "function": "victu:on_advancement/spider_eye"
-        }
-    }
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spider_eye"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "victu:on_advancement/spider_eye"
+	}
+}
