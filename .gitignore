@@ -3,3 +3,6 @@ __pycache__
 
 # Ignore builds
 Victu-*.zip
+
+# Ignore weird temporary files krita makes
+**/*.*~
