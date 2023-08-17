@@ -47,7 +47,7 @@ foods = [
 ]
 
 for food in foods:
-    if food != "cake":
+    if food != "cake": # Don't generate cake advancement because it requires special functionality
         with open(f"./data/{project_name}/advancements/consume/{food}.json", "w") as f:
             f.write(
                 f"""{{

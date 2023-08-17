@@ -6,6 +6,8 @@
 
 **Fun Fact:** The name **Victu** is latin for **diet**.
 
+## WARNING: This datapack is made for snapshot 23w31a and above and will not work on 1.20.1
+
 ## Features
 
 - ⚡ **Fast** Victu doesnt use many resources due to the way it utilizes advancements for detection of food being eaten.
